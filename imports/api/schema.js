@@ -22,10 +22,5 @@ type Team {
     number: Int
     votes: Int
 }
-type Member {
-    _id: String
-    teamNumber: Int
-    phoneNumber: String
-}
 `
 export default typeDefs
